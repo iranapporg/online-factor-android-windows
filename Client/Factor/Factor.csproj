@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61265939-8B98-49FB-B03D-AB389F018E28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Factor</RootNamespace>
+    <AssemblyName>Factor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>N:\Json60r4\Bin\Net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <HintPath>..\..\..\..\..\..\Current Project\Programming\Windows\Android Bookmaker\C#\bin\Release\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="database.cs" />
+    <Compile Include="frmgetFactorlistproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgetFactorlistproduct.Designer.cs">
+      <DependentUpon>frmgetFactorlistproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerifyFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerifyFactor.Designer.cs">
+      <DependentUpon>frmVerifyFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template\frmitem1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Template\frmitem1.Designer.cs">
+      <DependentUpon>frmitem1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template\MYButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Template\frmlistFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Template\frmlistFactor.Designer.cs">
+      <DependentUpon>frmlistFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template\newFactorItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Template\newFactorItem.Designer.cs">
+      <DependentUpon>newFactorItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorList.cs" />
+    <Compile Include="Factors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factors.Designer.cs">
+      <DependentUpon>Factors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorType.cs" />
+    <Compile Include="Template\frmFactorItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Template\frmFactorItem.Designer.cs">
+      <DependentUpon>frmFactorItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDI.Designer.cs">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmain.Designer.cs">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToast.designer.cs">
+      <DependentUpon>frmToast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myLibrary.cs" />
+    <Compile Include="UC\factor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\factor.Designer.cs">
+      <DependentUpon>factor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\getFactorList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\getFactorList.Designer.cs">
+      <DependentUpon>getFactorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\newFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\newFactor.Designer.cs">
+      <DependentUpon>newFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\product.Designer.cs">
+      <DependentUpon>product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmgetFactorlistproduct.resx">
+      <DependentUpon>frmgetFactorlistproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerifyFactor.resx">
+      <DependentUpon>frmVerifyFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\frmitem1.resx">
+      <DependentUpon>frmitem1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\frmlistFactor.resx">
+      <DependentUpon>frmlistFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\newFactorItem.resx">
+      <DependentUpon>newFactorItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factors.resx">
+      <DependentUpon>Factors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\frmFactorItem.resx">
+      <DependentUpon>frmFactorItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDI.resx">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmain.resx">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToast.resx">
+      <DependentUpon>frmToast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\factor.resx">
+      <DependentUpon>factor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\getFactorList.resx">
+      <DependentUpon>getFactorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\newFactor.resx">
+      <DependentUpon>newFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\product.resx">
+      <DependentUpon>product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\frmstore.resx">
+      <DependentUpon>frmstore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\frmItem.resx">
+      <DependentUpon>frmItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UC\frmstore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\frmstore.Designer.cs">
+      <DependentUpon>frmstore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template\frmItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Template\frmItem.Designer.cs">
+      <DependentUpon>frmItem.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_factor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navbar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incorrect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Resources\folder_invoices.png" />
+    <None Include="Resources\new_factor_on.png" />
+    <Content Include="Resources\toast.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,85 @@
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\ResolveAssemblyReference.cache
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmVerifyFactor.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmlistFactor.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.Template.newFactorItem.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.Factors.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmFactorItem.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmLogin.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmMDI.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmmain.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmToast.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.newFactor.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.PreviewFactor.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.product.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.Properties.Resources.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmstore.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmItem.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.csproj.GenerateResource.Cache
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Factor.exe.config
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Factor.exe
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Factor.pdb
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Newtonsoft.Json.dll
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Newtonsoft.Json.pdb
+H:\Current Project\Programming\C#\Factor\Factor\Factor\bin\Release\Newtonsoft.Json.xml
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.exe
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.pdb
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.UC.factor.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.UC.getFactorList.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmgetFactorlistproduct.resources
+H:\Current Project\Programming\C#\Factor\Factor\Factor\obj\Release\Factor.frmItem1.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Factor.exe.config
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.exe
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.pdb
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Factor.exe
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Factor.pdb
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Newtonsoft.Json.dll
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Newtonsoft.Json.pdb
+H:\Current Project\Programming\C#\Factor\Client\Factor\bin\Release\Newtonsoft.Json.xml
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\ResolveAssemblyReference.cache
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmgetFactorlistproduct.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmVerifyFactor.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmItem1.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmlistFactor.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Template.newFactorItem.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Factors.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmFactorItem.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmLogin.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmMDI.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmmain.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmToast.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.UC.factor.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.UC.getFactorList.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.newFactor.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.PreviewFactor.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.product.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Properties.Resources.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmstore.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmItem.resources
+H:\Current Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.csproj.GenerateResource.Cache
+Y:\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\bin\Release\Factor.exe.config
+Y:\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.exe
+Y:\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.pdb
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\bin\Release\Factor.exe.config
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.exe
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.pdb
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\ResolveAssemblyReference.cache
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmgetFactorlistproduct.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmVerifyFactor.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmItem1.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmlistFactor.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Template.newFactorItem.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Factors.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmFactorItem.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmLogin.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmMDI.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmmain.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmToast.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.UC.factor.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.UC.getFactorList.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.newFactor.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.PreviewFactor.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.product.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.Properties.Resources.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmstore.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.frmItem.resources
+\\psf\Home\Documents\My Tools\mY Project\Programming\C#\Factor\Client\Factor\obj\Release\Factor.csproj.GenerateResource.Cache
